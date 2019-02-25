@@ -1,9 +1,10 @@
+package test;
 import java.awt.List;
 import java.util.ArrayList;
 
 public class HW3T {
-	ArrayList <Integer> count = new ArrayList <Integer>();
-	    ArrayList <Integer> price = new ArrayList <Integer>();
+	public ArrayList <Integer> count = new ArrayList <Integer>();
+	public    ArrayList <Integer> price = new ArrayList <Integer>();
 	    
 	    public HW3T(){
 	        
