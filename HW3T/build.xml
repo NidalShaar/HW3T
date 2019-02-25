@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default ="compile">
-<property name="src.java.dir" location="C:\Users\Batma\git\repository\HW3T\src\test"/>
-<property name="src.test.dir" location="C:\Users\Batma\git\repository\HW3T\src\test1"/>
+<property name="src.java.dir" location=".\src\test"/>
+<property name="src.test.dir" location=".\src\test1"/>
 <property name="result.dir" location="./target"/>
 <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
 <property name="result.testclasses.dir" location="${result.dir}/testclasses"/>
 <property name="result.jar.file" location="./MyProduct.jar"/>
 
 <path id="NecessaryLibraries">
-        <pathelement location="C:\Users\Batma\git\repository\HW3T\src\libraies\org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+        <pathelement location=".\src\libraies\org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
         <!--matcher-->
-        <pathelement location="C:\Users\Batma\git\repository\HW3T\src\libraies\junit.jar"/>
+        <pathelement location=".\src\libraies\junit.jar"/>
         <!--<pathelement location="C:\eclipse\plugins\org.jacoco.ant-0.8.3.jar"/>-->
     </path>
     
